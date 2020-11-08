@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab 面向对象动态添加标签页</title>
+    <link rel="stylesheet" href="tab.css">
+</head>
+
+<body>
+    <main>
+        <h2>Tab 面向对象动态添加标签页</h2>
+        <div class="tabsbox" id="tab">
+            <nav>
+                <ul>
+                    <li class="liactive"><span>测试1</span><span class="iconfont icon-close"></span></li>
+                    <li><span>测试2</span><span class="iconfont icon-close"></span></li>
+                    <li><span>测试3</span><span class="iconfont icon-close"></span></li>
+                </ul>
+                <div class="addtab">
+                    <span>+</span>
+                </div>
+            </nav>
+
+            <div class="tabcont">
+                <section class="conactive">测试1</section>
+                <section>测试2</section>
+                <section>测试3</section>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="tab.js"></script>
+</body>
+
+</html>
